@@ -3,31 +3,31 @@ import type { Service } from '@/types'
 
 export const services: Service[] = [
   {
-    id: 'progettazione-strutturale',
+    id: 'structural-design',
     icon: Building2,
-    title: 'Progettazione Strutturale',
+    title: 'Structural Design',
     description:
-      'Progettiamo strutture sicure ed efficienti per edifici residenziali, commerciali e industriali, nel rispetto delle normative sismiche vigenti.',
+      'We design safe and efficient structures for residential, commercial, and industrial buildings, in compliance with current seismic regulations.',
   },
   {
-    id: 'direzione-lavori',
+    id: 'construction-management',
     icon: HardHat,
-    title: 'Direzione Lavori',
+    title: 'Construction Management',
     description:
-      'Seguiamo ogni fase del cantiere garantendo il rispetto di tempi, costi e standard qualitativi, dalla posa delle fondamenta al collaudo finale.',
+      'We oversee every phase of the site, ensuring timelines, costs, and quality standards are met, from foundations to final testing.',
   },
   {
-    id: 'consulenza-energetica',
+    id: 'energy-consulting',
     icon: Leaf,
-    title: 'Consulenza Energetica',
+    title: 'Energy Consulting',
     description:
-      'Offriamo consulenza su efficienza energetica e certificazioni per edifici sostenibili, riducendo consumi e impatto ambientale.',
+      'We provide energy efficiency consulting and certifications for sustainable buildings, reducing consumption and environmental impact.',
   },
   {
-    id: 'rilievi-pratiche-edilizie',
+    id: 'surveys-permits',
     icon: Ruler,
-    title: 'Rilievi e Pratiche Edilizie',
+    title: 'Surveys & Building Permits',
     description:
-      'Rilievi topografici, pratiche catastali e gestione delle autorizzazioni edilizie presso gli enti competenti.',
+      'Topographic surveys, land registry filings, and management of building permits with the relevant authorities.',
   },
 ]

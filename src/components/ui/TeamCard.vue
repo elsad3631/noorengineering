@@ -32,7 +32,7 @@ defineProps<Props>()
         v-if="email"
         :href="`mailto:${email}`"
         class="text-text-muted transition-colors hover:text-accent"
-        aria-label="Invia email"
+        aria-label="Send email"
       >
         <Mail :size="18" />
       </a>
@@ -42,7 +42,7 @@ defineProps<Props>()
         target="_blank"
         rel="noopener noreferrer"
         class="text-text-muted transition-colors hover:text-accent"
-        aria-label="Profilo LinkedIn"
+        aria-label="LinkedIn profile"
       >
         <Linkedin :size="18" />
       </a>

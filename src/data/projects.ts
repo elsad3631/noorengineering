@@ -3,34 +3,38 @@ import type { Project } from '@/types'
 export const projects: Project[] = [
   {
     id: 'residenza-aurora',
-    title: 'Residenza Aurora',
-    category: 'Residenziale',
-    location: 'Milano',
+    title: 'Aurora Residence',
+    category: 'Residential',
+    location: 'Milan',
     year: 2024,
-    image: 'https://picsum.photos/seed/residenza-aurora/800/600',
+    image:
+      'https://images.unsplash.com/photo-1757970326337-95d7cca56fa1?auto=format&fit=crop&w=800&h=600&q=80',
   },
   {
     id: 'torre-meridiana',
-    title: 'Torre Meridiana',
-    category: 'Commerciale',
-    location: 'Torino',
+    title: 'Meridian Tower',
+    category: 'Commercial',
+    location: 'Turin',
     year: 2023,
-    image: 'https://picsum.photos/seed/torre-meridiana/800/600',
+    image:
+      'https://images.unsplash.com/photo-1758846946191-dfe1cd91779b?auto=format&fit=crop&w=800&h=600&q=80',
   },
   {
     id: 'complesso-industriale-nord',
-    title: 'Complesso Industriale Nord',
-    category: 'Industriale',
+    title: 'North Industrial Complex',
+    category: 'Industrial',
     location: 'Bergamo',
     year: 2022,
-    image: 'https://picsum.photos/seed/complesso-industriale-nord/800/600',
+    image:
+      'https://images.unsplash.com/photo-1684966693180-45b9e18aff8d?auto=format&fit=crop&w=800&h=600&q=80',
   },
   {
     id: 'villa-serena',
     title: 'Villa Serena',
-    category: 'Residenziale',
+    category: 'Residential',
     location: 'Como',
     year: 2023,
-    image: 'https://picsum.photos/seed/villa-serena/800/600',
+    image:
+      'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=800&h=600&q=80',
   },
 ]

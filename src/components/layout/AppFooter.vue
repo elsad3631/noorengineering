@@ -18,14 +18,14 @@ const year = new Date().getFullYear()
             >
           </div>
           <p class="mt-4 text-sm text-text-muted">
-            Studio di ingegneria edile specializzato in progettazione
-            strutturale, direzione lavori e consulenza tecnica.
+            A building engineering firm specializing in structural design,
+            construction management, and technical consulting.
           </p>
         </div>
 
         <div>
           <p class="text-sm font-semibold uppercase tracking-widest text-text">
-            Contatti
+            Contact
           </p>
           <ul class="mt-3 space-y-2 text-sm text-text-muted">
             <li>{{ companyInfo.address }}</li>
@@ -37,39 +37,39 @@ const year = new Date().getFullYear()
 
         <div>
           <p class="text-sm font-semibold uppercase tracking-widest text-text">
-            Link rapidi
+            Quick Links
           </p>
           <ul class="mt-3 space-y-2 text-sm text-text-muted">
             <li>
               <a
                 href="#about"
                 class="hover:text-accent"
-              >Chi siamo</a>
+              >About</a>
             </li>
             <li>
               <a
-                href="#servizi"
+                href="#services"
                 class="hover:text-accent"
-              >Servizi</a>
+              >Services</a>
             </li>
             <li>
               <a
-                href="#progetti"
+                href="#projects"
                 class="hover:text-accent"
-              >Progetti</a>
+              >Projects</a>
             </li>
             <li>
               <a
-                href="#contatti"
+                href="#contact"
                 class="hover:text-accent"
-              >Contatti</a>
+              >Contact</a>
             </li>
           </ul>
         </div>
       </div>
 
       <div class="mt-10 border-t border-border pt-6 text-center text-xs text-text-muted">
-        © {{ year }} Noor Engineering. Tutti i diritti riservati.
+        © {{ year }} Noor Engineering. All rights reserved.
       </div>
     </div>
   </footer>

@@ -18,8 +18,8 @@ const { target, isVisible } = useScrollReveal()
       :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'"
     >
       <SectionHeading
-        eyebrow="Il team"
-        title="Le persone dietro ai progetti"
+        eyebrow="Our Team"
+        title="The people behind the projects"
         align="center"
       />
 

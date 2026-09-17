@@ -9,7 +9,7 @@ const { target, isVisible } = useScrollReveal()
 
 <template>
   <section
-    id="servizi"
+    id="services"
     class="bg-bg-alt py-24"
   >
     <div
@@ -18,8 +18,8 @@ const { target, isVisible } = useScrollReveal()
       :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'"
     >
       <SectionHeading
-        eyebrow="Servizi"
-        title="Cosa facciamo"
+        eyebrow="Services"
+        title="What we do"
         align="center"
       />
 

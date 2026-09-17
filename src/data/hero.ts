@@ -3,20 +3,22 @@ import type { HeroSlide } from '@/types'
 export const heroSlides: HeroSlide[] = [
   {
     id: 'slide-1',
-    title: "Progettiamo il futuro dell'edilizia",
+    title: 'Engineering the future of construction',
     subtitle:
-      'Ingegneria strutturale e direzione lavori per progetti residenziali, commerciali e industriali in tutta Italia.',
-    ctaLabel: 'Scopri i nostri progetti',
-    ctaTarget: '#progetti',
-    image: 'https://picsum.photos/seed/construction-site-1/1600/900',
+      'Structural engineering and construction management for residential, commercial, and industrial projects across Italy.',
+    ctaLabel: 'Discover our projects',
+    ctaTarget: '#projects',
+    image:
+      'https://images.unsplash.com/photo-1609867271967-a82f85c48531?auto=format&fit=crop&w=1600&h=900&q=80',
   },
   {
     id: 'slide-2',
-    title: 'Sicurezza, precisione, innovazione',
+    title: 'Safety, precision, innovation',
     subtitle:
-      'Un team di ingegneri e tecnici al vostro fianco dalla progettazione al collaudo finale.',
-    ctaLabel: 'Contattaci',
-    ctaTarget: '#contatti',
-    image: 'https://picsum.photos/seed/construction-site-2/1600/900',
+      'A team of engineers and technicians by your side from design to final testing.',
+    ctaLabel: 'Get in touch',
+    ctaTarget: '#contact',
+    image:
+      'https://images.unsplash.com/photo-1742185193142-896ae1a8c15d?auto=format&fit=crop&w=1600&h=900&q=80',
   },
 ]

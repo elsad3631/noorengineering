@@ -6,11 +6,11 @@ import logoUrl from '@/assets/images/logos/noorengineering.jpeg'
 const isMenuOpen = ref(false)
 
 const navLinks = [
-  { label: 'Chi siamo', target: '#about' },
-  { label: 'Servizi', target: '#servizi' },
-  { label: 'Progetti', target: '#progetti' },
+  { label: 'About', target: '#about' },
+  { label: 'Services', target: '#services' },
+  { label: 'Projects', target: '#projects' },
   { label: 'Team', target: '#team' },
-  { label: 'Contatti', target: '#contatti' },
+  { label: 'Contact', target: '#contact' },
 ]
 
 function closeMenu() {
@@ -44,15 +44,15 @@ function closeMenu() {
       </nav>
 
       <a
-        href="#contatti"
+        href="#contact"
         class="hidden rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-bg transition-colors hover:bg-accent-hover md:inline-flex"
       >
-        Richiedi un preventivo
+        Get a quote
       </a>
 
       <button
         class="text-text md:hidden"
-        aria-label="Apri il menu"
+        aria-label="Open menu"
         @click="isMenuOpen = !isMenuOpen"
       >
         <Menu

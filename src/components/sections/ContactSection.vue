@@ -31,9 +31,9 @@ const isSubmitted = ref(false)
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
 function validate(): boolean {
-  errors.name = form.name.trim() ? '' : 'Inserisci il tuo nome.'
-  errors.email = emailPattern.test(form.email) ? '' : 'Inserisci un indirizzo email valido.'
-  errors.message = form.message.trim() ? '' : 'Scrivi un messaggio.'
+  errors.name = form.name.trim() ? '' : 'Please enter your name.'
+  errors.email = emailPattern.test(form.email) ? '' : 'Please enter a valid email address.'
+  errors.message = form.message.trim() ? '' : 'Please write a message.'
   errors.phone = ''
 
   return !errors.name && !errors.email && !errors.message
@@ -42,8 +42,8 @@ function validate(): boolean {
 function handleSubmit() {
   if (!validate()) return
 
-  // TODO: collegare a un servizio di invio email reale (es. EmailJS,
-  // Formspree) o a un backend proprio quando l'infrastruttura sarà pronta.
+  // TODO: connect to a real email service (e.g. EmailJS, Formspree) or a
+  // dedicated backend once the infrastructure is ready.
   isSubmitted.value = true
   form.name = ''
   form.email = ''
@@ -54,13 +54,13 @@ function handleSubmit() {
 
 <template>
   <section
-    id="contatti"
+    id="contact"
     class="bg-bg py-24"
   >
     <div class="mx-auto max-w-7xl px-6">
       <SectionHeading
-        eyebrow="Contatti"
-        title="Parliamo del tuo progetto"
+        eyebrow="Contact"
+        title="Let's talk about your project"
       />
 
       <div class="grid gap-16 lg:grid-cols-2">
@@ -102,20 +102,20 @@ function handleSubmit() {
             v-if="isSubmitted"
             class="rounded-xl border border-accent bg-surface p-4 text-sm text-text"
           >
-            Grazie per il messaggio! Ti risponderemo il prima possibile.
+            Thanks for your message! We'll get back to you as soon as possible.
           </div>
 
           <div>
             <label
               for="name"
               class="mb-2 block text-sm font-medium text-text"
-            >Nome</label>
+            >Name</label>
             <input
               id="name"
               v-model="form.name"
               type="text"
               class="w-full rounded-lg border border-border bg-surface px-4 py-3 text-text placeholder:text-text-muted focus:border-accent focus:outline-none"
-              placeholder="Il tuo nome"
+              placeholder="Your name"
             >
             <p
               v-if="errors.name"
@@ -135,7 +135,7 @@ function handleSubmit() {
               v-model="form.email"
               type="email"
               class="w-full rounded-lg border border-border bg-surface px-4 py-3 text-text placeholder:text-text-muted focus:border-accent focus:outline-none"
-              placeholder="nome@esempio.it"
+              placeholder="name@example.com"
             >
             <p
               v-if="errors.email"
@@ -150,7 +150,7 @@ function handleSubmit() {
               for="phone"
               class="mb-2 block text-sm font-medium text-text"
             >
-              Telefono (opzionale)
+              Phone (optional)
             </label>
             <input
               id="phone"
@@ -166,14 +166,14 @@ function handleSubmit() {
               for="message"
               class="mb-2 block text-sm font-medium text-text"
             >
-              Messaggio
+              Message
             </label>
             <textarea
               id="message"
               v-model="form.message"
               rows="4"
               class="w-full rounded-lg border border-border bg-surface px-4 py-3 text-text placeholder:text-text-muted focus:border-accent focus:outline-none"
-              placeholder="Raccontaci il tuo progetto"
+              placeholder="Tell us about your project"
             />
             <p
               v-if="errors.message"
@@ -187,7 +187,7 @@ function handleSubmit() {
             type="submit"
             variant="primary"
           >
-            Invia messaggio
+            Send message
           </BaseButton>
         </form>
       </div>

@@ -12,15 +12,15 @@ import { stats } from '@/data/stats'
     <div class="mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-2">
       <div>
         <SectionHeading
-          eyebrow="Chi siamo"
-          title="Costruiamo idee solide dal 2004"
+          eyebrow="About Us"
+          title="Building solid ideas since 2004"
         />
         <p class="text-base leading-relaxed text-text-muted">
-          Noor Engineering è uno studio di ingegneria edile che progetta e
-          realizza edifici residenziali, commerciali e industriali in tutta
-          Italia. Uniamo competenza tecnica, attenzione ai dettagli e un
-          approccio orientato alla sostenibilità per trasformare ogni idea in
-          una struttura solida, sicura e duratura.
+          Noor Engineering is a building engineering firm that designs and
+          delivers residential, commercial, and industrial buildings across
+          Italy. We combine technical expertise, attention to detail, and a
+          sustainability-driven approach to turn every idea into a solid,
+          safe, and lasting structure.
         </p>
 
         <dl class="mt-12 grid grid-cols-2 gap-8">
@@ -46,8 +46,8 @@ import { stats } from '@/data/stats'
 
       <div class="overflow-hidden rounded-2xl border border-border">
         <img
-          src="https://picsum.photos/seed/noor-office/900/700"
-          alt="Sede di Noor Engineering"
+          src="https://images.unsplash.com/photo-1745015446589-7ee6f702d8c1?auto=format&fit=crop&w=900&h=700&q=80"
+          alt="Noor Engineering headquarters"
           class="h-full w-full object-cover"
         >
       </div>
